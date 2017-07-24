@@ -1,4 +1,4 @@
-## douVoice is an unpacked chrome extension to enable broadcast, photo upload and blog post at douban.com after July 2017
+## DouVoice is an unpacked chrome extension to enable broadcast, photo upload and blog post at douban.com after July 2017
 
 ## How to use it?
 1. `git clone https://github.com/neko2016/JSLabs/tree/master/01_DouVoice`
