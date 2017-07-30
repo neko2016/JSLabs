@@ -1,5 +1,5 @@
 var broadcast = document.getElementsByClassName("js-verify-account");
-for (var i = 0; i < els.length; i++){
+for (var i = 0; i < broadcast.length; i++){
     broadcast[i].dataset.isVerified = "True";
 }
 
