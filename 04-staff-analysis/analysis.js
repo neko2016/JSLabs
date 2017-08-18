@@ -2,7 +2,7 @@
 // chrome://settings/content/popups
 
 var data = [];
-var cid ;
+var cid;
 var page = 3;
 var timer = 10000;
 
@@ -42,6 +42,7 @@ function openURL(i, cid){
         }
 
     }, timer * i); 
+}
 
 function analysis(){
     var tech = 0;
@@ -97,6 +98,4 @@ function analysis(){
     console.log('HR:', hrArr);
 }
 
-
 navigate();
-
