@@ -90,12 +90,27 @@ function analysis(){
     console.log("total", data.length);
     console.log('counted', counted);
 
-    console.log('tech:', techArr);
-    console.log('sales:', saleArr);
-    console.log('design:', designArr);
-    console.log('finance:', financeArr);
-    console.log('student:', stArr);
-    console.log('HR:', hrArr);
+    // console.log('tech:', techArr);
+    // console.log('sales:', saleArr);
+    // console.log('design:', designArr);
+    // console.log('finance:', financeArr);
+    // console.log('student:', stArr);
+    // console.log('HR:', hrArr);
+
+    var tech_json = JSON.stringify(techArr);
+    var sale_json = JSON.stringify(saleArr);
+    var design_json = JSON.stringify(designArr);
+    var finance_json = JSON.stringify(financeArr);
+    var st_json = JSON.stringify(stArr);
+    var hr_json = JSON.stringify(hrArr);
+
+    console.log('tech:', tech_json);
+    console.log('sales:', sale_json);
+    console.log('design:', design_json);
+    console.log('finance:', finance_json);
+    console.log('student:', st_json);
+    console.log('HR:', hr_json);
+
 }
 
 navigate();
